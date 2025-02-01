@@ -1,0 +1,59 @@
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+    background: rgba(0, 0, 0, 0.444); 
+    backdrop-filter: blur(15px); 
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+  }
+  
+ 
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .nav-links a,
+  .dark-mode-btn {
+    background: linear-gradient(135deg, rgba(223, 2, 223, 0.7), rgba(252, 33, 150, 0.7));
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+  }
+  
+  .nav-links a:hover,
+  .dark-mode-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, rgba(255, 20, 147, 0.9), rgba(128, 0, 128, 0.9));
+  }
+  
+  
+  .dark-mode-btn {
+    background: rgba(50, 50, 50, 0.5);
+    border: none;
+    cursor: pointer;
+  }
+  

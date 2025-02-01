@@ -19,10 +19,16 @@ const App = () => {
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
+<<<<<<< HEAD
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
       </Router>
     {/* <Portfolio /> */}
+=======
+      </Routes>
+      </Router>
+    <Portfolio />
+>>>>>>> 83189138cd60f5f17b55a34af03e27f1733fcf87
     {/* <Footer />   */}
     
    </> 

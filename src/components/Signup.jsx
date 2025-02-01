@@ -1,5 +1,9 @@
 import React, { useState } from "react";
+<<<<<<< HEAD
 import { Link, useNavigate } from "react-router-dom";
+=======
+import { Link } from "react-router-dom";
+>>>>>>> 83189138cd60f5f17b55a34af03e27f1733fcf87
 
 const Signup = () => {
   const [formData, setFormData] = useState({
@@ -8,12 +12,16 @@ const Signup = () => {
     password: "",
   });
 
+<<<<<<< HEAD
   const navigate = useNavigate();
 
+=======
+>>>>>>> 83189138cd60f5f17b55a34af03e27f1733fcf87
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+<<<<<<< HEAD
   // const handleSubmit = (e) => {
   //   e.preventDefault();
   //   console.log("User Signed Up:", formData);
@@ -49,6 +57,12 @@ const Signup = () => {
     });
 };
 
+=======
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("User Signed Up:", formData);
+  };
+>>>>>>> 83189138cd60f5f17b55a34af03e27f1733fcf87
 
   return (
     

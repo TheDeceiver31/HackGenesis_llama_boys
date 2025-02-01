@@ -3,6 +3,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 require('dotenv').config();
 const mongoose = require('mongoose');
+<<<<<<< HEAD
 const bcrypt = require('bcrypt')
 const freeport = require('find-free-port');
 const userRouter = require('./routes/userRoutes');
@@ -70,3 +71,43 @@ app.post("/signup", async (req, res) => {
         res.status(500).json({ message: "Error signing up", error });
     }
 });
+=======
+
+const app = express();
+const PORT = process.env.PORT || 5000;
+
+// Middleware
+app.use(cors());
+app.use(bodyParser.json());
+
+// Routes
+app.get('/', (req, res) => {
+    res.send('Welcome to the Express backend!');
+});
+
+app.post('/data', (req, res) => {
+    const { name, email } = req.body;
+    res.json({ message: `Received data: Name - ${name}, Email - ${email}` });
+});
+
+
+// mongoose.connect(process.env.MONGO_URI, {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true,
+
+// })
+//     .then(() => console.log('MongoDB Connected'))
+//     .catch(err => console.error('MongoDB connection error:', err));
+
+// app.listen(PORT, () => {
+//     console.log(`Server is running on port ${PORT}`);
+// });
+
+mongoose.connect(process.env.MONGO_URL).then(() => {
+    app.listen(process.env.PORT || 3000, () => {
+        console.log("Server is running at ${process.env.PORT}");
+
+    })
+});
+
+>>>>>>> 83189138cd60f5f17b55a34af03e27f1733fcf87

@@ -12,13 +12,19 @@
   "type": "commonjs",
   "description": "",
   "dependencies": {
+<<<<<<< HEAD
     "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
+=======
+>>>>>>> 83189138cd60f5f17b55a34af03e27f1733fcf87
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+<<<<<<< HEAD
     "find-free-port": "^2.0.0",
+=======
+>>>>>>> 83189138cd60f5f17b55a34af03e27f1733fcf87
     "mongoose": "^8.9.6"
   },
   "devDependencies": {

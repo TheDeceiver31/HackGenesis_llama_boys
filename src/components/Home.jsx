@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 import React from 'react';
 import './style.css'; // Make sure the CSS file is in the same directory or correct path
+=======
+import React from 'react'
+>>>>>>> 83189138cd60f5f17b55a34af03e27f1733fcf87
 
 const Home = () => {
   return (
     <div>
+<<<<<<< HEAD
      
 
       {/* Projects Section */}
@@ -72,3 +77,11 @@ const Home = () => {
 };
 
 export default Home;
+=======
+      
+    </div>
+  )
+}
+
+export default Home
+>>>>>>> 83189138cd60f5f17b55a34af03e27f1733fcf87

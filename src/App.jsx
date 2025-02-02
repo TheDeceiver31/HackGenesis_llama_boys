@@ -20,15 +20,21 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd4a5ae (last commit)
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
       </Router>
     {/* <Portfolio /> */}
+<<<<<<< HEAD
 =======
       </Routes>
       </Router>
     <Portfolio />
 >>>>>>> 83189138cd60f5f17b55a34af03e27f1733fcf87
+=======
+>>>>>>> cd4a5ae (last commit)
     {/* <Footer />   */}
     
    </> 

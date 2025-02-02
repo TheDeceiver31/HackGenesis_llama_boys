@@ -4,6 +4,9 @@ const bodyParser = require('body-parser');
 require('dotenv').config();
 const mongoose = require('mongoose');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd4a5ae (last commit)
 const bcrypt = require('bcrypt')
 const freeport = require('find-free-port');
 const userRouter = require('./routes/userRoutes');
@@ -71,6 +74,7 @@ app.post("/signup", async (req, res) => {
         res.status(500).json({ message: "Error signing up", error });
     }
 });
+<<<<<<< HEAD
 =======
 
 const app = express();
@@ -111,3 +115,5 @@ mongoose.connect(process.env.MONGO_URL).then(() => {
 });
 
 >>>>>>> 83189138cd60f5f17b55a34af03e27f1733fcf87
+=======
+>>>>>>> cd4a5ae (last commit)

@@ -1,9 +1,13 @@
 import React, { useState } from "react";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Link, useNavigate } from "react-router-dom";
 =======
 import { Link } from "react-router-dom";
 >>>>>>> 83189138cd60f5f17b55a34af03e27f1733fcf87
+=======
+import { Link, useNavigate } from "react-router-dom";
+>>>>>>> cd4a5ae (last commit)
 
 const Signup = () => {
   const [formData, setFormData] = useState({
@@ -13,15 +17,23 @@ const Signup = () => {
   });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   const navigate = useNavigate();
 
 =======
 >>>>>>> 83189138cd60f5f17b55a34af03e27f1733fcf87
+=======
+  const navigate = useNavigate();
+
+>>>>>>> cd4a5ae (last commit)
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd4a5ae (last commit)
   // const handleSubmit = (e) => {
   //   e.preventDefault();
   //   console.log("User Signed Up:", formData);
@@ -57,12 +69,15 @@ const Signup = () => {
     });
 };
 
+<<<<<<< HEAD
 =======
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("User Signed Up:", formData);
   };
 >>>>>>> 83189138cd60f5f17b55a34af03e27f1733fcf87
+=======
+>>>>>>> cd4a5ae (last commit)
 
   return (
     

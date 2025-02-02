@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd4a5ae (last commit)
 // import React from 'react'
 // import { Link } from 'react-router-dom';
 
@@ -98,6 +101,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+<<<<<<< HEAD
 =======
 import React from 'react'
 import { Link } from 'react-router-dom';
@@ -147,3 +151,5 @@ const Navbar = () => {
 
 export default Navbar
 >>>>>>> 83189138cd60f5f17b55a34af03e27f1733fcf87
+=======
+>>>>>>> cd4a5ae (last commit)
